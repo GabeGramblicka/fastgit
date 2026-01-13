@@ -3,6 +3,11 @@ Fastgit is a small shell script that makes committing to your git repository muc
 It is designed for small or individual projects in mind
 
 ## Setup / Installation
+Clone the repository:
+```
+git clone https://github.com/GabeGramblicka/fastgit.git
+```
+
 ### Linux:
 Make the script executable:
 ```
