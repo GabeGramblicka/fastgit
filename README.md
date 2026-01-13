@@ -1,9 +1,9 @@
-#### Welcome to Fastgit!
+# Welcome to Fastgit!
 Fastgit is a small shell script that makes committing to your git repository much faster. 
 It is designed for small or individual projects in mind
 
-### Setup / Installation
-## Linux:
+## Setup / Installation
+### Linux:
 Make the script executable
 `chmod +x fastgit.sh`
 
