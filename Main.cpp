@@ -10,14 +10,10 @@ int main(void) {
   std::cout << "Commit Message: ";
   std::getline(std::cin, commitMessage);
 
-  std::string commitPrompt = "git commit -m \"";
-
-  std::string finalString = commitPrompt + commitMessage + "\"";
-  std::cout << std::endl;
-  std::cout << finalString << std::endl;
+  std::string finalString = "git commit -m \"" + commitMessage + "\"";
   system(finalString.c_str());
 
-  std::cout << "Push?";
+  std::cout << "Push? (Press Enter)";
   std::cin.get();
   system("git push");
 
