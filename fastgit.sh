@@ -11,10 +11,11 @@ fi
 function usage() {
   cat <<USAGE
 
-  Usage: $0 [-c count]
+  Usage: $0 [-c count] [-v verbose]
 
   Options:
-    -c, --count: total commit count of repository 
+    -c, --count:   total commit count of repository 
+    -v, --verbose: extended visual and explaination
 
 USAGE
   exit 1
